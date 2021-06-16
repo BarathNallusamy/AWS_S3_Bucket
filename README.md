@@ -1,5 +1,7 @@
 ## AWS S3 Bucket
 
+[guideline link](https://docs.aws.amazon.com/AmazonS3/latest/userguide)
+
 ##### Route 53
 use load balance to divert the service to active datacentre.
 use route 53 DNS services to connect an application that is deployed in a different location.
