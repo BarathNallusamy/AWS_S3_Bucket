@@ -24,9 +24,9 @@ use route 53 DNS services to connect an application that is deployed in a differ
 - create a any type of file in local `sudo nano devops_bootcamp_test.text`
 - copy the file to the bucket `aws s3 cp (copy) devops_bootcamp_test.text s3://devops-bootcamp-barath-bucket/`
 
-**BY DEFAULT THE FILE WILL BE RESTRICTED TO VIEW BY ANY OTHERS UNLESS IS THE PERMISSION IS AUTHORIZED**
+**BY DEFAULT THE FILE WILL BE RESTRICTED TO VIEW BY ANY OTHERS UNLESS THE PERMISSION IS AUTHORIZED**
 to make it globally accessible follow the steps shown below
-- go the S3 bucket
+- go to the S3 bucket
 - edit bucket policy to grant public read access to your bucket
 - add the following code and update the Resource to your bucket name
 ```
