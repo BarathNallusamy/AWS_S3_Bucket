@@ -1,16 +1,8 @@
 ## AWS S3 Bucket
 
-[guideline link](https://docs.aws.amazon.com/AmazonS3/latest/userguide)
+[Guideline](https://docs.aws.amazon.com/AmazonS3/latest/userguide)
 
-##### Route 53
-use load balance to divert the service to active datacentre.
-use route 53 DNS services to connect an application that is deployed in a different location.
-
-
-
-#### scale out - scaling the same size of server in multiple locations - cost effective
-#### scale up - increase the size of the server
-
+## Follow the steps shown below to setup your s3 bucket on AWS
 - `sudo apt-get update -y`
 - `sudo apt-get upgrade -y`
 - `sudo apt-get install python`
@@ -56,4 +48,13 @@ delete the file from the local vm
 aws s3 sync s3://devops-bootcamp-barath-bucket/ devops_bootcamp_test.text (download from the bucket as a directory)
 aws s3 rm s3://devops-bootcamp-barath-bucket/devops_bootcamp_test.text (delete the file from the bucket)
 aws s3 rb s3://devops-bootcamp-barath-bucket (remove the bucket)
+
+## Additional notes
+
+##### Route 53
+use load balance to divert the service to active datacentre.
+use route 53 DNS services to connect an application that is deployed in a different location.
+
+#### scale out - scaling the same size of server in multiple locations - cost effective
+#### scale up - increase the size of the server
  
