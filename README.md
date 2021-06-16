@@ -1,12 +1,13 @@
+## AWS S3 Bucket
 
-## Route 53
+##### Route 53
 use load balance to divert the service to active datacentre.
 use route 53 DNS services to connect an application that is deployed in a different location.
 
 
 
-## scale out - scaling the same size of server in multiple locations - cost effective
-## scale up - increase the size of the server
+#### scale out - scaling the same size of server in multiple locations - cost effective
+#### scale up - increase the size of the server
 
 - `sudo apt-get update -y`
 - `sudo apt-get upgrade -y`
@@ -45,7 +46,7 @@ to make it globally accessible follow the steps shown below
         }
     ]
 }
-
+```
 - save changes
 
 
