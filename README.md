@@ -17,8 +17,8 @@ use route 53 DNS services to connect an application that is deployed in a differ
 - `sudo apt-get install python-pip`
 - `sudo apt-get install awscli`
 - `aws configure`
-- enter your >AWS access key
-- enter your >AWS secret key
+- enter your > AWS access key
+- enter your > AWS secret key
 - when prompted for the region enter `eu-west-1`
 - when prompted for output format enter `json`
 - `aws s3 ls` (will list all the s3 buckets) example-trello uses s3 bucket to store images
