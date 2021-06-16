@@ -44,10 +44,10 @@ to make it globally accessible follow the steps shown below
 - save changes
 
 
-delete the file from the local vm `sudo rm -rf filename`
-`aws s3 sync s3://devops-bootcamp-barath-bucket/ devops_bootcamp_test.text` *download from the bucket as a directory*
-`aws s3 rm s3://devops-bootcamp-barath-bucket/devops_bootcamp_test.text` *delete the file from the bucket*
-`aws s3 rb s3://devops-bootcamp-barath-bucket` *remove the bucket*
+- delete the file from the local vm `sudo rm -rf filename`
+- `aws s3 sync s3://devops-bootcamp-barath-bucket/ devops_bootcamp_test.text` *download from the bucket as a directory*
+- `aws s3 rm s3://devops-bootcamp-barath-bucket/devops_bootcamp_test.text` *delete the file from the bucket*
+- `aws s3 rb s3://devops-bootcamp-barath-bucket` *remove the bucket*
 
 ## Additional notes
 
