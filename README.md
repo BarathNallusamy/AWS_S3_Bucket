@@ -3,6 +3,7 @@
 [Guideline](https://docs.aws.amazon.com/AmazonS3/latest/userguide)
 
 ## Follow the steps shown below to setup your s3 bucket on AWS
+- ssh to your ec2 instance (any)
 - `sudo apt-get update -y`
 - `sudo apt-get upgrade -y`
 - `sudo apt-get install python`
